@@ -6,8 +6,7 @@
 <hr>
 <div class="row">
   <div class="col-xs-12">
-    <a
-      href="#"
+    <li
       class="list-group-item clearfix"
       *ngFor="let recipe of recipes">
         <div class="float-left">
@@ -17,7 +16,6 @@
         <span class="float-right">
           <img src={{recipe.imagePath}} alt="" class="img-responsive" style="max-height:30px">
         </span>
-
-    </a>
+      </li>
   </div>
 </div>
